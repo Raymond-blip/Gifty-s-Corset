@@ -1,0 +1,43 @@
+/* Smaller hero for collection page */
+.collection-page {
+  background: #fff;
+  text-align: center;
+}
+a{
+    text-decoration: none;
+}
+.collection-page h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.collection-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.collection-box {
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+  background: #fefefe;
+}
+
+.collection-box:hover {
+  transform: scale(1.03);
+}
+
+.collection-box img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.collection-box h3 {
+  padding: 1rem;
+  background: gold;
+  color: black;
+  font-weight: bold;
+}
