@@ -83,7 +83,7 @@ nav ul li a:hover {
 
 /* Hero Section */
 .hero {
-  background-image: url('images/pngtree-african-fashion-inspirations-pictures-for-summer-2018-fashion-picture-image_3399521.jpg');
+  background-image: url('./images/background.webp');
   background-size: cover;
   background-position: center;
   height: 100vh;
